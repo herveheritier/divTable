@@ -59,7 +59,7 @@
 
         <h2>DivTable object source code</h2>
         <button onclick="var cl=document.querySelector('#DivTableSource').classList; cl.toggle('hide'); cl.toggle('show')">show/hide source code</button><br/>
-        <iframe id="DivTableSource" name="i1" src="http://127.0.0.1/iframeMixCodeViewer/iframeMixCodeViewer.html?i1" class="hide"></iframe>
+        <iframe id="DivTableSource" name="i1" src="resources/iframeMixCodeViewer.html?i1" class="hide"></iframe>
 
     </body>
 
@@ -76,7 +76,7 @@ document.querySelector('#demo').appendChild(
     foot: ['foot 1','foot 2','foot 3']
 }))
 
-setUpFrame = (e) => window.frames['i1'].loadCode("http://127.0.0.1/divTable/scripts/divTableGenerator.js")
+setUpFrame = (e) => window.frames['i1'].loadCode("scripts/divTableGenerator.js")
 
 console.group("")
 
